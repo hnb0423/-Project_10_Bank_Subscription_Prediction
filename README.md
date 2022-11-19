@@ -29,3 +29,16 @@ Predict if the client will subscribe to a bank term product.
 - To obtain the synthetic data point, add this to the current data point
 
 **So I used balanced train data to train model and predict on imbalanced test data**
+
+
+#### Model Training & Evaluation
+- Ensure balanced class weight
+- Use RandomizedSearchCV to tune hyperparameters for each model
+- Apply 5-fold cross validation
+- Evaluate model using, f1 score, precision,and recall because test data is not balanced.I care more about whether the models can capture 1 instead of 0.
+- Plot confusion matrix
+- Plot precision & recall curve for all models
+- Result summary table
+
+#### Result
+- Achieved 87% prediction accuracy and 61% recall score
