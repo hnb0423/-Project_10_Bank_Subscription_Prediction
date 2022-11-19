@@ -28,4 +28,4 @@ Predict if the client will subscribe to a bank term product.
 - Multiply the vector by a random number between 0 and 1.
 - To obtain the synthetic data point, add this to the current data point
 
-**So I will use balanced train data to train model and predict on imbalanced test data**
+**So I used balanced train data to train model and predict on imbalanced test data**
